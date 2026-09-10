@@ -2607,10 +2607,6 @@
 				var privacyButton = document.getElementById("privacyButton");
 				var supportButton = document.getElementById("supportButton");
 
-				if (window.ResizeObserver) {
-					new ResizeObserver(syncAgreementBarHeight).observe(agreementBar);
-				}
-
 				privacyButton.addEventListener("click", function() {
 					window.open(privacyPolicyUrl, "_blank");
 				});
