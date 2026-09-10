@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#131A15">
+  <title>GBTCOINESE No.1 Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --app-background-color: #ffffff;
+      --bg: #ffffff;
+      --bg-start: #ffffff;
+      --bg-end: #f8fafc;
+      --surface: #ffffff;
+      --surface-soft: #f8fafc;
+      --ink: #1c2120;
+      --body: #535e5e;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --line-soft: #293548;
+      --accent: #2dd4bf;
+      --accent-dark: #0f766e;
+      --accent-text: #0f766e;
+      --accent-soft: rgba(45, 212, 191, 0.13);
+      --accent-border: rgba(94, 234, 212, 0.35);
+      --gold: #fbbf24;
+      --gold-soft: rgba(120, 53, 15, 0.25);
+      --shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background-color: var(--app-background-color);
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.16), transparent 34rem),
+        radial-gradient(circle at 88% 12%, rgba(251, 191, 36, 0.08), transparent 26rem),
+        linear-gradient(135deg, var(--bg-start) 0%, var(--bg) 48%, var(--bg-end) 100%);
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    .document {
+      overflow: hidden;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: clamp(32px, 6vw, 72px);
+      color: #1c2120;
+      background:
+        linear-gradient(180deg, #ffffff, #f8fafc),
+        linear-gradient(90deg, rgba(91, 140, 255, 0.06), transparent);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      border: 1px solid var(--accent-border);
+      border-radius: 999px;
+      color: var(--accent-text);
+      background: var(--accent-soft);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .badge::before {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+      content: "";
+    }
+
+    h1 {
+      max-width: 780px;
+      margin: 26px 0 16px;
+      font-size: clamp(2.35rem, 6vw, 5rem);
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 720px;
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.28rem);
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1px;
+      background: var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .meta-item {
+      min-height: 112px;
+      padding: 24px;
+      background: var(--surface-soft);
+    }
+
+    .meta-label {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .meta-value {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 750;
+      color: var(--ink);
+    }
+
+    .content {
+      padding: clamp(28px, 5vw, 64px);
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: 56px 1fr;
+      gap: 18px;
+      align-items: start;
+      margin-bottom: 44px;
+      padding: 24px;
+      border: 1px solid var(--accent-border);
+      border-radius: 18px;
+      background: var(--accent-soft);
+    }
+
+    .summary-icon {
+      display: grid;
+      width: 56px;
+      height: 56px;
+      place-items: center;
+      border-radius: 16px;
+      color: #ffffff;
+      background: var(--accent);
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+
+    .summary h2 {
+      margin: 0 0 8px;
+      font-size: 1.35rem;
+    }
+
+    .summary p {
+      margin: 0;
+      color: var(--body);
+    }
+
+    section {
+      padding: 28px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    section:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: clamp(1.35rem, 2.5vw, 1.8rem);
+      line-height: 1.2;
+      letter-spacing: 0;
+      color: var(--ink);
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--body);
+    }
+
+    ul {
+      margin: 16px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      position: relative;
+      margin: 12px 0;
+      padding-left: 30px;
+      color: var(--body);
+    }
+
+    li::before {
+      position: absolute;
+      top: 0.58em;
+      left: 4px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+      content: "";
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 750;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .statement {
+      margin: 30px 0 8px;
+      padding: 22px;
+      border-left: 5px solid var(--gold);
+      border-radius: 14px;
+      background: var(--gold-soft);
+      color: #f6d9a6;
+      font-weight: 650;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 28px clamp(28px, 5vw, 64px);
+      border-top: 1px solid var(--line);
+      background: var(--surface-soft);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .footer strong {
+      color: var(--ink);
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: min(100% - 20px, 1040px);
+        padding: 20px 0;
+      }
+
+      .document {
+        border-radius: 18px;
+      }
+
+      .meta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+      }
+
+      .footer {
+        flex-direction: column;
+      }
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+      }
+
+      main {
+        width: 100%;
+        padding: 0;
+      }
+
+      .document {
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    }
+
+    /* Premium visual refresh */
+    :root {
+      --app-background-color: #ffffff;
+      --bg: #070812;
+      --bg-start: #070812;
+      --bg-end: #07120f;
+      --surface: rgba(15, 23, 42, 0.8);
+      --surface-soft: rgba(18, 26, 43, 0.78);
+      --ink: #fbfcff;
+      --body: #dbe3f0;
+      --muted: #a7b3c5;
+      --line: rgba(199, 210, 254, 0.2);
+      --line-soft: rgba(199, 210, 254, 0.14);
+      --accent: #38bdf8;
+      --accent-dark: #0284c7;
+      --accent-text: #bae6fd;
+      --accent-soft: rgba(56, 189, 248, 0.12);
+      --accent-border: rgba(125, 211, 252, 0.36);
+      --gold: #f59e0b;
+      --gold-soft: rgba(245, 158, 11, 0.13);
+      --shadow: 0 34px 100px rgba(0, 0, 0, 0.46);
+    }
+
+    body {
+      background:
+        linear-gradient(90deg, rgba(125, 211, 252, 0.045) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(199, 210, 254, 0.035) 1px, transparent 1px),
+        conic-gradient(from 210deg at 78% 10%, rgba(245, 158, 11, 0.16), transparent 17%, rgba(56, 189, 248, 0.18), transparent 36%),
+        linear-gradient(135deg, #070812 0%, #0e1626 46%, #07120f 100%);
+      background-size: 54px 54px, 54px 54px, auto, auto;
+      overflow-x: hidden;
+      isolation: isolate;
+    }
+
+    body::before,
+    body::after {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      content: "";
+    }
+
+    body::before {
+      background:
+        linear-gradient(115deg, transparent 0 22%, rgba(56, 189, 248, 0.15) 22.2%, transparent 22.8% 50%, rgba(52, 211, 153, 0.11) 50.3%, transparent 51%),
+        repeating-linear-gradient(135deg, transparent 0 98px, rgba(255, 255, 255, 0.05) 99px, transparent 100px);
+      -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.56) 58%, transparent 100%);
+      mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.56) 58%, transparent 100%);
+    }
+
+    body::after {
+      background:
+        repeating-linear-gradient(180deg, rgba(255, 255, 255, 0.025) 0, rgba(255, 255, 255, 0.025) 1px, transparent 1px, transparent 5px);
+      opacity: 0.36;
+    }
+
+    main {
+      width: min(1180px, calc(100% - 40px));
+      padding: clamp(24px, 4vw, 54px) 0;
+    }
+
+    .document {
+      position: relative;
+      border-color: rgba(226, 232, 240, 0.18);
+      border-radius: 30px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.055), transparent 220px),
+        rgba(15, 23, 42, 0.8);
+      -webkit-backdrop-filter: blur(18px);
+      backdrop-filter: blur(18px);
+    }
+
+    .document::before {
+      position: absolute;
+      inset: 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: inherit;
+      pointer-events: none;
+      content: "";
+    }
+
+    .hero {
+      position: relative;
+      min-height: 420px;
+      padding: clamp(34px, 7vw, 82px);
+      background:
+        linear-gradient(120deg, rgba(255, 255, 255, 0.1), transparent 28%),
+        linear-gradient(135deg, rgba(56, 189, 248, 0.2), transparent 42%),
+        linear-gradient(100deg, rgba(17, 24, 39, 0.95), rgba(8, 13, 25, 0.78));
+      overflow: hidden;
+    }
+
+    .hero::before {
+      position: absolute;
+      right: clamp(20px, 6vw, 78px);
+      bottom: clamp(16px, 4vw, 48px);
+      width: min(380px, 42vw);
+      height: min(220px, 28vw);
+      border: 1px solid rgba(125, 211, 252, 0.22);
+      border-radius: 24px;
+      background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(52, 211, 153, 0.06));
+      background-size: 42px 42px, 42px 42px, auto;
+      content: "";
+      opacity: 0.62;
+      transform: perspective(520px) rotateX(58deg) rotateZ(-13deg);
+      transform-origin: center;
+    }
+
+    .hero>* {
+      position: relative;
+      z-index: 1;
+    }
+
+    .badge {
+      border-radius: 999px;
+      letter-spacing: 0.1em;
+      box-shadow: inset 0 0 26px rgba(56, 189, 248, 0.08);
+    }
+
+    h1 {
+      max-width: 880px;
+      font-size: clamp(2.7rem, 7vw, 6rem);
+      line-height: 0.9;
+    }
+
+    .subtitle {
+      max-width: 760px;
+      font-size: clamp(1.02rem, 1.8vw, 1.32rem);
+      line-height: 1.7;
+    }
+
+    .policy-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 30px;
+    }
+
+    .policy-highlights span {
+      display: inline-flex;
+      min-height: 42px;
+      align-items: center;
+      padding: 0 16px;
+      border: 1px solid rgba(226, 232, 240, 0.16);
+      border-radius: 999px;
+      color: var(--body);
+      background: rgba(255, 255, 255, 0.055);
+      font-size: 0.9rem;
+      font-weight: 750;
+    }
+
+    .meta-grid {
+      gap: 0;
+      border-color: rgba(226, 232, 240, 0.14);
+      background: rgba(226, 232, 240, 0.12);
+    }
+
+    .meta-item {
+      min-height: 126px;
+      padding: 28px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.045), transparent),
+        rgba(18, 26, 43, 0.78);
+    }
+
+    .meta-label {
+      color: var(--accent-text);
+    }
+
+    .content {
+      padding: clamp(28px, 5vw, 70px);
+    }
+
+    .summary {
+      grid-template-columns: 64px 1fr;
+      margin-bottom: 34px;
+      padding: 28px;
+      border-radius: 24px;
+      background:
+        linear-gradient(135deg, rgba(56, 189, 248, 0.15), transparent 54%),
+        rgba(255, 255, 255, 0.045);
+    }
+
+    .summary-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 18px;
+      background: linear-gradient(145deg, #38bdf8, #34d399);
+      box-shadow: 0 16px 34px rgba(56, 189, 248, 0.22);
+    }
+
+    section {
+      position: relative;
+      padding: 32px 0 32px 34px;
+      border-top-color: rgba(226, 232, 240, 0.13);
+    }
+
+    section::before {
+      position: absolute;
+      top: 39px;
+      left: 0;
+      width: 14px;
+      height: 14px;
+      border: 3px solid var(--accent);
+      border-radius: 6px;
+      content: "";
+      transform: rotate(45deg);
+    }
+
+    section:first-of-type::before {
+      top: 7px;
+    }
+
+    h2 {
+      font-size: clamp(1.42rem, 2.6vw, 2rem);
+    }
+
+    li::before {
+      border-radius: 4px;
+      background: linear-gradient(145deg, #38bdf8, #34d399);
+      transform: rotate(45deg);
+    }
+
+    .statement {
+      border-left: 0;
+      border: 1px solid rgba(251, 191, 36, 0.34);
+      border-radius: 20px;
+      background:
+        linear-gradient(135deg, rgba(245, 158, 11, 0.18), transparent),
+        rgba(245, 158, 11, 0.08);
+      box-shadow: inset 0 0 28px rgba(245, 158, 11, 0.05);
+    }
+
+    .footer {
+      border-top-color: rgba(226, 232, 240, 0.14);
+      background: rgba(18, 26, 43, 0.78);
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: min(100% - 24px, 1040px);
+        padding: 18px 0;
+      }
+
+      .document {
+        border-radius: 24px;
+      }
+
+      .hero {
+        min-height: 0;
+        padding: 28px 20px;
+      }
+
+      .hero::before {
+        display: none;
+      }
+
+      section {
+        padding-left: 24px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <style>
+    /* 2026 enterprise privacy-center interface */
+    :root {
+      color-scheme: light;
+      --app-background-color: #ffffff;
+      --bg: #ffffff;
+      --bg-start: #ffffff;
+      --bg-end: #f3f5f7;
+      --surface: #ffffff;
+      --surface-soft: #f8fafc;
+      --ink: #1c2120;
+      --body: #535e5e;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --line-soft: rgba(148, 163, 184, 0.11);
+      --accent: #5b8cff;
+      --accent-dark: #4778eb;
+      --accent-text: #3b6fd4;
+      --accent-soft: rgba(91, 140, 255, 0.1);
+      --accent-border: rgba(91, 140, 255, 0.29);
+      --gold: #f5b942;
+      --gold-soft: rgba(245, 185, 66, 0.09);
+      --shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+    }
+
+    html {
+      background: var(--app-background-color);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 78% -8%, rgba(124, 108, 255, 0.18), transparent 34rem),
+        radial-gradient(circle at 12% 10%, rgba(91, 140, 255, 0.14), transparent 30rem),
+        linear-gradient(180deg, #ffffff 0%, #fafbfc 52%, #f3f5f7 100%);
+      background-attachment: fixed;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", sans-serif;
+      font-feature-settings: "kern", "liga";
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      inset: 0;
+      background:
+        linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+      background-size: 72px 72px;
+      opacity: 0.6;
+      -webkit-mask-image: linear-gradient(180deg, #000 0%, transparent 64%);
+      mask-image: linear-gradient(180deg, #000 0%, transparent 64%);
+    }
+
+    body::after {
+      display: none;
+    }
+
+    ::selection {
+      color: #ffffff;
+      background: rgba(91, 140, 255, 0.52);
+    }
+
+    main {
+      width: min(1120px, calc(100% - 40px));
+      padding: clamp(20px, 4vw, 48px) 0;
+    }
+
+    .document {
+      border: 1px solid rgba(148, 163, 184, 0.17);
+      border-radius: 28px;
+      background: rgba(12, 19, 32, 0.92);
+      box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+      -webkit-backdrop-filter: blur(26px);
+      backdrop-filter: blur(26px);
+    }
+
+    .document::before {
+      border-top-color: rgba(255, 255, 255, 0.055);
+      background: none;
+    }
+
+    .hero {
+      min-height: 0;
+      padding: clamp(34px, 6vw, 68px);
+      border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+      background:
+        linear-gradient(120deg, rgba(255, 255, 255, 0.045), transparent 32%),
+        linear-gradient(135deg, rgba(91, 140, 255, 0.13), transparent 54%),
+        rgba(12, 19, 32, 0.9);
+    }
+
+    .hero::before {
+      top: -220px;
+      right: -130px;
+      bottom: auto;
+      left: auto;
+      width: 540px;
+      height: 540px;
+      border: 0;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(124, 108, 255, 0.28), rgba(91, 140, 255, 0.06) 48%, transparent 70%);
+      background-size: auto;
+      filter: blur(2px);
+      opacity: 0.9;
+      transform: none;
+    }
+
+    .brand-lockup {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 52px;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 10px;
+      color: #ffffff;
+      background: linear-gradient(145deg, #6594ff, #6d5df5);
+      box-shadow: 0 10px 24px rgba(91, 140, 255, 0.26), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .brand-name {
+      color: #f7f9fc;
+      font-size: 13px;
+      font-weight: 760;
+      letter-spacing: 0.04em;
+    }
+
+    .brand-tag {
+      padding-left: 10px;
+      border-left: 1px solid rgba(148, 163, 184, 0.32);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .badge {
+      margin-bottom: 18px;
+      padding: 8px 12px;
+      border-color: rgba(91, 140, 255, 0.3);
+      border-radius: 999px;
+      color: var(--accent-text);
+      background: rgba(91, 140, 255, 0.09);
+      box-shadow: none;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+    }
+
+    .badge::before {
+      width: 7px;
+      height: 7px;
+      background: #6f9aff;
+      box-shadow: 0 0 14px rgba(111, 154, 255, 0.8);
+    }
+
+    h1 {
+      max-width: 820px;
+      color: #ffffff;
+      font-size: clamp(42px, 6vw, 76px);
+      font-weight: 720;
+      line-height: 0.98;
+      letter-spacing: -0.045em;
+    }
+
+    .subtitle {
+      max-width: 720px;
+      margin-top: 22px;
+      color: #aeb9c9;
+      font-size: clamp(15px, 1.6vw, 18px);
+      line-height: 1.72;
+    }
+
+    .policy-highlights {
+      gap: 9px;
+      margin-top: 32px;
+    }
+
+    .policy-highlights span {
+      min-height: 38px;
+      padding: 0 14px;
+      border: 1px solid rgba(148, 163, 184, 0.15);
+      border-radius: 999px;
+      color: #b8c3d3;
+      background: rgba(255, 255, 255, 0.032);
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    .meta-grid {
+      gap: 1px;
+      border-bottom-color: rgba(148, 163, 184, 0.14);
+      background: rgba(148, 163, 184, 0.12);
+    }
+
+    .meta-item {
+      min-height: 112px;
+      padding: 25px 28px;
+      background: rgba(15, 23, 38, 0.96);
+    }
+
+    .meta-label {
+      color: #8292aa;
+      font-size: 10px;
+      letter-spacing: 0.12em;
+    }
+
+    .meta-value {
+      color: #edf2fa;
+      font-size: 15px;
+      font-weight: 650;
+    }
+
+    a {
+      color: #8fb0ff;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: #b9ceff;
+    }
+
+    a:focus-visible {
+      border-radius: 3px;
+      outline: 3px solid rgba(131, 167, 255, 0.76);
+      outline-offset: 3px;
+    }
+
+    .content {
+      width: min(900px, 100%);
+      margin: 0 auto;
+      padding: clamp(30px, 6vw, 68px);
+    }
+
+    .summary {
+      grid-template-columns: 58px 1fr;
+      gap: 18px;
+      margin-bottom: 24px;
+      padding: 24px;
+      border: 1px solid rgba(91, 140, 255, 0.24);
+      border-radius: 20px;
+      background: linear-gradient(135deg, rgba(91, 140, 255, 0.1), rgba(124, 108, 255, 0.035));
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    }
+
+    .summary-icon {
+      width: 58px;
+      height: 58px;
+      border: 1px solid rgba(91, 140, 255, 0.28);
+      border-radius: 16px;
+      color: #c8d7ff;
+      background: rgba(91, 140, 255, 0.11);
+      box-shadow: none;
+    }
+
+    .summary h2 {
+      color: #ffffff;
+      font-size: 21px;
+      font-weight: 680;
+      letter-spacing: -0.025em;
+    }
+
+    .summary p {
+      color: #aeb9c9;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    section {
+      padding: 36px 0 36px 52px;
+      border-top: 1px solid rgba(148, 163, 184, 0.13);
+    }
+
+    section::before {
+      top: 45px;
+      left: 0;
+      width: 24px;
+      height: 2px;
+      border: 0;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #5b8cff, rgba(91, 140, 255, 0.12));
+      content: "";
+      transform: none;
+    }
+
+    section:first-of-type {
+      padding-top: 20px;
+    }
+
+    section:first-of-type::before {
+      top: 29px;
+    }
+
+    h2 {
+      color: #f7f9fc;
+      font-size: clamp(20px, 2.5vw, 27px);
+      font-weight: 670;
+      line-height: 1.25;
+      letter-spacing: -0.026em;
+    }
+
+    p,
+    li {
+      color: #aeb9c9;
+      font-size: 14px;
+      line-height: 1.78;
+    }
+
+    ul {
+      margin-top: 18px;
+    }
+
+    li {
+      margin: 10px 0;
+      padding-left: 27px;
+    }
+
+    li::before {
+      top: 0.7em;
+      left: 4px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #719cff;
+      transform: none;
+    }
+
+    .statement {
+      margin-top: 24px;
+      padding: 20px;
+      border: 1px solid rgba(245, 185, 66, 0.28);
+      border-left: 1px solid rgba(245, 185, 66, 0.28);
+      border-radius: 16px;
+      color: #e4cca0;
+      background: rgba(245, 185, 66, 0.07);
+      box-shadow: none;
+      font-weight: 600;
+    }
+
+    .footer {
+      padding: 26px clamp(28px, 6vw, 68px);
+      border-top-color: rgba(148, 163, 184, 0.14);
+      background: rgba(9, 15, 26, 0.74);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer strong {
+      color: #e9eef7;
+    }
+
+    @media (max-width: 760px) {
+      html,
+      body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      main {
+        width: min(100% - 20px, 1120px);
+        max-width: 100%;
+        padding: 10px 0;
+        overflow-x: hidden;
+      }
+
+      .document {
+        border-radius: 20px;
+      }
+
+      .hero {
+        padding: 28px 20px 32px;
+      }
+
+      .brand-lockup {
+        margin-bottom: 36px;
+      }
+
+      h1 {
+        font-size: clamp(36px, 11vw, 52px);
+        overflow-wrap: anywhere;
+        text-wrap: wrap;
+        word-break: break-word;
+      }
+
+      .meta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .meta-item {
+        min-height: 0;
+        padding: 20px;
+      }
+
+      .content {
+        padding: 24px 20px 36px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+        padding: 20px;
+      }
+
+      section,
+      section:first-of-type {
+        padding: 30px 0;
+      }
+
+      section::before,
+      section:first-of-type::before {
+        top: 0;
+        left: 0;
+        width: 36px;
+      }
+
+      .footer {
+        flex-direction: column;
+        padding: 22px 20px;
+      }
+    }
+
+    @media (max-width: 440px) {
+      .document,
+      .hero,
+      .meta-grid,
+      .content,
+      .summary,
+      section,
+      .footer {
+        max-width: 100%;
+        min-width: 0;
+      }
+
+      .brand-lockup {
+        gap: 8px;
+      }
+
+      .brand-tag {
+        width: 100%;
+        margin-left: 42px;
+        padding-left: 0;
+        border-left: 0;
+      }
+
+      .policy-highlights {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .policy-highlights span {
+        justify-content: center;
+      }
+
+      h1 {
+        font-size: 32px;
+        line-height: 1.04;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+
+    @media print {
+      html,
+      body {
+        color: #111827;
+        background: #ffffff;
+      }
+
+      body::before {
+        display: none;
+      }
+
+      main {
+        width: 100%;
+        padding: 0;
+      }
+
+      .document,
+      .hero,
+      .meta-item,
+      .summary {
+        color: #111827;
+        background: #ffffff;
+        box-shadow: none;
+      }
+    }
+  </style>
+  <style>
+    /* GBTCOINESE No.1 · Tidal Shell Realm theme */
+    :root {
+      color-scheme: dark;
+      --app-background-color: #131A15;
+      --bg: #131A15;
+      --bg-start: #131A15;
+      --bg-end: #0f1511;
+      --surface: #1E2820;
+      --surface-soft: #172019;
+      --ink: #EBEEEC;
+      --body: #B3BBB5;
+      --muted: #96A59B;
+      --line: #323D34;
+      --line-soft: #29372C;
+      --accent: #27A4CD;
+      --accent-dark: #1e8aad;
+      --accent-text: #27A4CD;
+      --accent-soft: rgba(39, 164, 205, 0.12);
+      --accent-border: rgba(39, 164, 205, 0.35);
+      --gold: #E4C125;
+      --gold-soft: rgba(228, 193, 37, 0.12);
+      --shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+    }
+
+    html { background: #131A15; scroll-behavior: smooth; }
+
+    body {
+      color: var(--ink);
+      background:
+        linear-gradient(rgba(39, 164, 205, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(37, 228, 75, 0.03) 1px, transparent 1px),
+        linear-gradient(180deg, #131A15, #0f1511);
+      background-size: 40px 40px, 40px 40px, auto;
+      background-attachment: fixed;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      position: fixed; inset: 0; display: block;
+      background: linear-gradient(90deg, transparent 0 74%, rgba(39, 164, 205, 0.06) 74.1%, transparent 74.2%);
+      content: ""; pointer-events: none;
+      -webkit-mask-image: none; mask-image: none;
+    }
+
+    ::selection { color: #131A15; background: #25E44B; }
+
+    main { width: min(1220px, calc(100% - 40px)); margin: 0 auto; padding: 24px 0 54px; }
+
+    .document {
+      overflow: hidden; position: relative;
+      border: 1px solid #323D34; border-radius: 20px;
+      background: #1E2820; box-shadow: var(--shadow);
+    }
+
+    .document::before {
+      position: absolute; inset: 0 auto auto 0; display: block;
+      width: 100%; height: 4px; border: 0;
+      background: linear-gradient(90deg, #27A4CD 0 40%, #25E44B 40% 70%, #323D34 70% 100%);
+      content: "";
+    }
+
+    .hero {
+      min-height: auto; padding: clamp(42px, 7vw, 80px);
+      border-bottom: 1px solid #323D34; color: #EBEEEC;
+      background: #1E2820; overflow: hidden; position: relative;
+    }
+
+    .hero::before, .hero::after { display: none; }
+
+    .brand-lockup { gap: 10px; margin-bottom: clamp(40px, 6vw, 72px); }
+
+    .brand-mark {
+      width: 34px; height: 34px;
+      border: 1px solid rgba(37, 228, 75, 0.35); border-radius: 10px;
+      color: #131A15;
+      background: linear-gradient(145deg, #25E44B, #27A4CD);
+      box-shadow: 0 8px 20px rgba(37, 228, 75, 0.25);
+      font-size: 14px; font-weight: 800;
+    }
+
+    .brand-name { color: #EBEEEC; font-size: 13px; font-weight: 700; letter-spacing: 0.04em; }
+    .brand-tag { border-left: 1px solid #323D34; color: #96A59B; font-size: 13px; }
+
+    .badge {
+      margin-bottom: 19px; padding: 8px 14px;
+      border: 1px solid rgba(39, 164, 205, 0.35); border-radius: 999px;
+      color: #27A4CD; background: rgba(39, 164, 205, 0.12);
+      font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+    }
+
+    .badge::before { width: 9px; height: 9px; border-radius: 50%; background: #5b8cff; }
+
+    h1 {
+      position: relative; z-index: 1; max-width: 840px; margin: 0;
+      color: #EBEEEC; font-size: clamp(36px, 5.5vw, 64px);
+      font-weight: 700; line-height: 0.98; letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      position: relative; z-index: 1; max-width: 700px; margin-top: 20px;
+      color: #B3BBB5; font-size: 15px; line-height: 1.7;
+    }
+
+    .policy-highlights {
+      position: relative; z-index: 1; gap: 8px; width: fit-content; margin-top: 28px;
+      border: 0; background: transparent; display: flex; flex-wrap: wrap;
+    }
+
+    .policy-highlights span {
+      min-height: 32px; padding: 0 12px;
+      border: 1px solid #323D34; border-radius: 999px;
+      color: #96A59B; background: #172019;
+      font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+      display: inline-flex; align-items: center;
+    }
+
+    .meta-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0;
+      border-bottom: 1px solid #323D34; background: #172019;
+    }
+
+    .meta-item { min-height: 96px; padding: 24px 26px; background: #172019; border-right: 1px solid #323D34; }
+    .meta-item:last-child { border-right: 0; }
+    .meta-label { color: #9ca3af; font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+    .meta-value { color: #1c2120; font-size: 14px; font-weight: 600; overflow-wrap: anywhere; }
+
+    a { color: #3b6fd4; text-decoration: none; }
+    a:hover { color: #5b8cff; text-decoration: underline; }
+    a:focus-visible { outline: 2px solid #5b8cff; outline-offset: 3px; }
+
+    .content { width: min(980px, 100%); margin: 0 auto; padding: clamp(34px, 6vw, 70px); counter-reset: policy-section; }
+
+    .summary {
+      display: grid; grid-template-columns: 54px 1fr; gap: 18px; margin-bottom: 24px; padding: 21px;
+      border: 1px solid rgba(91, 140, 255, 0.2); border-radius: 16px;
+      background: rgba(91, 140, 255, 0.06); box-shadow: none;
+    }
+
+    .summary-icon {
+      width: 54px; height: 54px;
+      border: 1px solid rgba(91, 140, 255, 0.25); border-radius: 12px;
+      color: #3b6fd4; background: rgba(91, 140, 255, 0.08);
+      font-size: 18px; display: grid; place-items: center;
+    }
+
+    .summary h2 { color: #1c2120; font-size: 19px; font-weight: 700; letter-spacing: -0.02em; }
+    .summary p { color: #535e5e; font-size: 14px; line-height: 1.72; }
+
+    .content section {
+      position: relative; display: grid;
+      grid-template-columns: minmax(180px, 0.34fr) minmax(0, 1fr);
+      column-gap: clamp(26px, 5vw, 62px);
+      padding: 34px 0; border-top: 1px solid #eef2f7;
+      counter-increment: policy-section;
+    }
+
+    .content section::before {
+      position: absolute; top: 39px; left: 0;
+      color: #3b6fd4; background: none; border: 0;
+      content: "SEC-" counter(policy-section, decimal-leading-zero);
+      font-size: 9px; font-weight: 700; letter-spacing: 0.1em;
+    }
+
+    .content section h2 {
+      grid-column: 1; margin: 25px 0 0;
+      color: #1c2120; font-size: clamp(18px, 2.4vw, 24px);
+      font-weight: 700; line-height: 1.2; letter-spacing: -0.02em;
+    }
+
+    .content section > p, .content section > ul { grid-column: 2; }
+    p, li { color: #535e5e; font-size: 14px; line-height: 1.8; }
+    .content section > p:first-of-type { margin-top: 21px; }
+    ul { margin-top: 9px; }
+    li { margin: 9px 0; padding-left: 24px; position: relative; list-style: none; }
+
+    li::before {
+      position: absolute; top: 0.72em; left: 2px;
+      width: 6px; height: 6px;
+      border: 1px solid rgba(91, 140, 255, 0.4); border-radius: 50%;
+      background: rgba(91, 140, 255, 0.15); content: "";
+    }
+
+    .statement {
+      margin-top: 23px; padding: 18px;
+      border: 1px solid rgba(217, 119, 6, 0.25); border-left: 3px solid #d97706;
+      border-radius: 12px; color: #92400e; background: rgba(251, 191, 36, 0.08);
+      font-weight: 500;
+    }
+
+    .footer {
+      padding: 23px clamp(30px, 6vw, 70px);
+      border-top: 1px solid #323D34; color: #96A59B; background: #172019;
+      font-size: 12px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+    }
+
+    .footer strong { color: #374151; }
+
+    @media (max-width: 760px) {
+      main { width: min(100% - 16px, 1220px); padding: 8px 0 24px; }
+      .hero { padding: 30px 20px 38px; }
+      .brand-lockup { margin-bottom: 40px; }
+      h1 { font-size: 36px; overflow-wrap: anywhere; }
+      .meta-grid { grid-template-columns: 1fr; }
+      .meta-item { border-right: 0; border-bottom: 1px solid #eef2f7; min-height: 0; padding: 19px 20px; }
+      .content { padding: 26px 20px 34px; }
+      .summary { grid-template-columns: 1fr; }
+      .content section, .content section:first-of-type { display: block; padding: 31px 0; }
+      .content section h2 { margin-top: 24px; }
+      .footer { flex-direction: column; padding: 20px; }
+    }
+
+    @media (max-width: 440px) {
+      .policy-highlights { width: 100%; }
+      h1 { font-size: 32px; }
+    }
+  </style>
+  <style id="tidal-shell-overrides">
+    html, body { background: #131A15 !important; color: #EBEEEC !important; }
+    .document, .hero, .hero > *, .meta-grid, .meta-item, .summary, .footer, .content { background: #1E2820 !important; border-color: #323D34 !important; }
+    .hero::before { background: linear-gradient(90deg, #27A4CD 0 40%, #25E44B 40% 70%, #323D34 70% 100%) !important; }
+    .meta-grid, .meta-item, .footer { background: #172019 !important; }
+    h1, h2, h3, .brand-name, .meta-value, .summary h2, strong { color: #EBEEEC !important; }
+    p, li, .subtitle, .meta-label, .brand-tag, .footer span { color: #B3BBB5 !important; }
+    .badge, .policy-highlights span { border-color: rgba(39, 164, 205, 0.35) !important; color: #27A4CD !important; background: rgba(39, 164, 205, 0.12) !important; }
+    .brand-mark { border-color: rgba(37, 228, 75, 0.35) !important; background: linear-gradient(145deg, #25E44B, #27A4CD) !important; color: #131A15 !important; }
+    .summary { background: rgba(39, 164, 205, 0.1) !important; border-color: rgba(39, 164, 205, 0.3) !important; }
+    .summary-icon { color: #25E44B !important; background: rgba(37, 228, 75, 0.12) !important; border-color: rgba(37, 228, 75, 0.3) !important; }
+    a { color: #27A4CD !important; }
+    .statement { background: rgba(228, 193, 37, 0.12) !important; border-color: rgba(228, 193, 37, 0.35) !important; color: #f0dfa0 !important; }
+    .content section { border-color: #323D34 !important; }
+    .content section::before { color: #25E44B !important; }
+    li::before { border-color: rgba(37, 228, 75, 0.4) !important; background: rgba(37, 228, 75, 0.15) !important; }
+    ::selection { background: #25E44B !important; color: #131A15 !important; }
+  </style>
+</head>
+
+<body class="privacy-page">
+  <main>
+    <article class="document" aria-labelledby="policy-title">
+      <header class="hero">
+        <div class="brand-lockup" aria-label="GBTCOINESE No.1 Privacy Center">
+          <span class="brand-mark" aria-hidden="true">G</span>
+          <span class="brand-name">GBTCOINESE No.1</span>
+          <span class="brand-tag">Tidal Shell Realm</span>
+        </div>
+        <div class="badge">Privacy First</div>
+        <h1 id="policy-title">GBTCOINESE No.1 Privacy Policy</h1>
+        <p class="subtitle">
+          This policy explains what stays on your device in the Tidal Shell Realm hub and reef mini games,
+          and the choices available in Settings.
+        </p>
+        <div class="policy-highlights" aria-label="Privacy highlights">
+          <span>No accounts</span>
+          <span>No ads or tracking</span>
+          <span>Local stars &amp; scores</span>
+        </div>
+      </header>
+
+      <div class="meta-grid" aria-label="Policy details">
+        <div class="meta-item">
+          <p class="meta-label">Application</p>
+          <p class="meta-value">GBTCOINESE No.1</p>
+        </div>
+        <div class="meta-item">
+          <p class="meta-label">Effective Date</p>
+          <p class="meta-value">September 9, 2026</p>
+        </div>
+        <div class="meta-item">
+          <p class="meta-label">Contact</p>
+          <p class="meta-value">support@gbtcoinese.app</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="summary">
+          <div class="summary-icon" aria-hidden="true">✓</div>
+          <div>
+            <h2>Privacy in Brief</h2>
+            <p>
+              GBTCOINESE No.1 requires no account and includes no advertising or third-party analytics SDK.
+              Game progress, best scores, stars, tutorial flags, and settings for sound effects and
+              vibration &amp; haptics are stored locally on your device. The app is designed as a self-contained casual
+              entertainment experience without gambling, betting, or real-money features.
+            </p>
+          </div>
+        </div>
+
+        <section>
+          <h2>1. Introduction</h2>
+          <p>
+            This Privacy Policy describes how the developer and operator of GBTCOINESE No.1
+            (“GBTCOINESE No.1,” “we,” “us,” or “our”) handles information when you use the
+            GBTCOINESE No.1 iOS application. It applies to the current version of the app and its
+            in-app agreement and privacy pages.
+          </p>
+          <p>
+            The app provides a collection of casual workshop mini games, including Tower Wave Upgrade,
+            Slice &amp; Fit, Beat Tap, Fill the Gap, Extra Letter, and Fuel Run. It also includes the Tidal Shell Realm hub,
+            short tutorials, score tracking, stars, sound effects and vibration &amp; haptics settings, and local progress
+            summaries (Total Stars, Minis Played, Recent).
+          </p>
+        </section>
+
+        <section>
+          <h2>2. Information You Do Not Need to Provide</h2>
+          <p>
+            GBTCOINESE No.1 does not require account registration, login, identity verification, or
+            payment information. The current app does not ask for your name, email address, phone
+            number, mailing address, contacts, precise or approximate location, microphone, or
+            advertising identifier.
+          </p>
+          <ul>
+            <li>No account profile is created.</li>
+            <li>No gambling, betting, cash prizes, wagering, or real-money rewards are offered.</li>
+            <li>No advertising, cross-app tracking, or behavioral profiling is used.</li>
+            <li>No third-party analytics or advertising SDK is integrated in the current app.</li>
+            <li>No payment credentials or financial accounts are connected.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>3. Information Stored on Your Device</h2>
+          <p>
+            The app uses local device storage for information needed to remember your choices and
+            gameplay progress. Depending on the features you use, this may include:
+          </p>
+          <ul>
+            <li>Game progress, best scores, stars, and recently played mini games.</li>
+            <li>Tutorial completion flags for each mini game.</li>
+            <li>Settings choices such as sound effects and vibration &amp; haptics.</li>
+            <li>Local progress summaries shown in the Tidal Shell Realm hub and Settings.</li>
+          </ul>
+          <p>
+            This information is not an account held by us and is not synchronized by the app to an
+            account or cloud database operated by us. It remains on your device unless it is
+            included in an operating-system backup under settings controlled by you and the
+            platform provider.
+          </p>
+        </section>
+
+        <section>
+          <h2>4. Optional Permissions</h2>
+          <p>
+            Some device permissions may be requested only when you choose to use a supported feature.
+            Optional camera or photo access, if requested by your device, is used only when you choose
+            to provide an image within a supported feature. You can deny camera access or change camera
+            permission later in iOS Settings.
+          </p>
+          <p>
+            Device authentication, when used, is handled by iOS using the authentication method
+            configured on your device, such as Face ID, Touch ID, or the device passcode. GBTCOINESE No.1 does
+            not receive your face image, fingerprint data, device passcode, or biometric template.
+            The app receives only an authentication success or failure result.
+          </p>
+        </section>
+
+        <section>
+          <h2>5. How Information Is Used and Disclosed</h2>
+          <p>
+            Information described in this policy is used only to provide requested features,
+            remember on-device choices, display gameplay progress, and improve your in-app
+            experience. We do not sell or rent personal information. We do not disclose app
+            information to advertising networks or data brokers and do not use it for
+            cross-context behavioral advertising.
+          </p>
+          <p>
+            Information may be disclosed when required by applicable law or valid legal process, or
+            when reasonably necessary to protect users, the service, or legal rights.
+          </p>
+        </section>
+
+        <section>
+          <h2>6. Retention and Security</h2>
+          <p>
+            Local records remain on your device until you remove or reset them through available
+            app controls, clear relevant system data, or uninstall the app. You can use
+            Reset Tutorials or Reset All Progress from Settings inside the app.
+          </p>
+          <p>
+            We use reasonable safeguards appropriate to the information involved, but no device,
+            transmission, or storage method can be guaranteed completely secure.
+          </p>
+        </section>
+
+        <section>
+          <h2>7. Your Choices and Privacy Rights</h2>
+          <ul>
+            <li>Turn sound effects or vibration &amp; haptics on or off in Settings.</li>
+            <li>Reset tutorials with “Reset Tutorials” or clear all scores and stars with “Reset All Progress” in Settings.</li>
+            <li>Remove all app data by deleting GBTCOINESE No.1 from your device.</li>
+            <li>Manage optional camera permission in iOS Settings.</li>
+          </ul>
+          <p>
+            Depending on where you live, you may have rights to request access, correction,
+            deletion, portability, restriction, or objection. Because the app has no user accounts
+            and we may be unable to associate stored data with you, we may not hold identifiable
+            information that can be returned or deleted. You may still contact us, and we will
+            respond as required by applicable law.
+          </p>
+        </section>
+
+        <section>
+          <h2>8. Children&apos;s Privacy</h2>
+          <p>
+            GBTCOINESE No.1 is a casual entertainment app suitable for broad audiences and is not directed
+            to children under 13, or a higher minimum age where required by local law. We do not
+            knowingly create accounts for or solicit personal information from children. If you
+            believe a child has provided information to us, contact us so we can review the matter.
+          </p>
+        </section>
+
+        <section>
+          <h2>9. Changes to This Policy</h2>
+          <p>
+            We may update this Privacy Policy to reflect app features, legal requirements, or
+            operational practices. We will change the effective date when the policy is revised.
+            If a change materially affects how information is handled, we will provide notice as
+            required by applicable law.
+          </p>
+        </section>
+
+        <section>
+          <h2>10. Contact Us</h2>
+          <p>
+            If you have questions about this Privacy Policy or GBTCOINESE No.1&apos;s privacy practices,
+            please contact us at <strong>support@gbtcoinese.app</strong>.
+          </p>
+          <p class="statement">
+            This policy is intended to describe the current app accurately. If you believe the app
+            behaves differently from this policy, please contact us.
+          </p>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <span><strong>GBTCOINESE No.1</strong> Privacy Policy</span>
+        <span>Effective Date: September 9, 2026</span>
+      </footer>
+</article>
+  </main>
+
+<script>
+  (function () {
+    function getAppBackgroundColor() {
+      var style = getComputedStyle(document.documentElement);
+      return (style.getPropertyValue("--app-background-color") || "#ffffff").trim();
+    }
+    function callNative(action, param) {
+      if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.TidalShellRealm) {
+        window.webkit.messageHandlers.TidalShellRealm.postMessage({ action: action, parameter: param || {} });
+      }
+    }
+    window.addEventListener("load", function () {
+      callNative("setWebViewConfiguration", { backgroundColor: [19, 26, 21] });
+      callNative("cancelLoading");
+    });
+  })();
+</script>
+
+</body>
+
+</html>
