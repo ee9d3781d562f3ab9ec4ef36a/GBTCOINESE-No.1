@@ -2600,13 +2600,7 @@
 				}
 			}
 
-			document.addEventListener('DOMContentLoaded', function() {
-				a()
-			});
-
 			function a() {
-				document.getElementById("body").style.display = "block";
-
 				var privacyPolicyUrl = "privacyPolicy.html";
 				var supportUrl = "support.html";
 				var agreeButton = document.getElementById("agreeButton");
@@ -2634,9 +2628,12 @@
 				});
 				callNative("cancelLoading");
 			}
+			document.addEventListener('DOMContentLoaded', function() {
+				a();
+			});
 		</script>
 	</head>
-	<body class="legal-page" id="body" style="display: none;">
+	<body class="legal-page" id="body">
 		<main class="page">
 			<div class="shell">
 				<section class="hero" aria-labelledby="page-title">
